@@ -1,0 +1,27 @@
+# Created with YamlCreate.ps1 v2.2.10 $debug=NVS0.CRLF.5-1-22621-2428.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.5.0.schema.json
+
+# Cannot be merched until https://github.com/microsoft/winget-pkgs/issues/246 is fixed
+
+PackageIdentifier: Cognex.DataMan
+PackageVersion: 24.2.1
+InstallerLocale: en-US
+InstallerType: exe
+Scope: machine
+InstallModes:
+- interactive
+- silent
+InstallerSwitches:
+  Silent: /s /r
+  SilentWithProgress: /s /r
+InstallerSuccessCodes:
+- 3010
+UpgradeBehavior: install
+ReleaseDate: 2024-07-23
+Installers:
+- Architecture: x64
+  InstallerUrl: https://www.cognex.com/support/downloads/ns/5/34/186/DataMan_v24.2.1.exe
+  InstallerSha256: CE0F7C4A9A754C831021444DFF88FE6D79DA420CA80927437ADAB58DA0314E9A
+  ProductCode: '{2B9D8936-68BE-4937-B5E0-A759151A123E}'
+ManifestType: installer
+ManifestVersion: 1.6.0

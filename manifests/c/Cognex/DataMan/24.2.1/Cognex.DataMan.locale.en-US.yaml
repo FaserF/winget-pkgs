@@ -1,0 +1,28 @@
+# Created with YamlCreate.ps1 v2.2.10 $debug=NVS0.CRLF.5-1-22621-2428.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.5.0.schema.json
+
+PackageIdentifier: Cognex.DataMan
+PackageVersion: 24.2.1
+PackageLocale: en-US
+Publisher: Cognex Corporation
+PublisherUrl: https://www.cognex.com/
+PublisherSupportUrl: https://support.cognex.com/en/home/login?ReturnUrl=%2Fen%2FSupportRequests%2FCreate
+PrivacyUrl: https://www.cognex.com/privacy-policy#privacy
+# Author:
+PackageName: DataMan
+PackageUrl: https://www.cognex.com/products/leading-technology/dataman-setup-tool-software
+License: Proprietary
+# LicenseUrl:
+Copyright: © 2024 Cognex Corporation
+CopyrightUrl: https://www.cognex.com/privacy-policy#terms
+ShortDescription: The DataMan Setup Tool software simplifies installation and operation of DataMan image-based barcode readers. Setup is fast and easy thanks to step-by-step guidance, application assistants, and intelligent auto-tuning.
+# Description:
+# Moniker:
+# Tags:
+ReleaseNotes: https://support.cognex.com/en-us/downloads/dataman/software-firmware
+ReleaseNotesUrl: https://support.cognex.com/en-us/downloads/detail/dataman/5113/1033
+# PurchaseUrl:
+InstallationNotes: https://support.cognex.com/en-us/downloads/dataman/software-firmware
+Documentations: https://support.cognex.com/en/documentation/dataman
+ManifestType: defaultLocale
+ManifestVersion: 1.6.0
