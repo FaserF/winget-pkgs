@@ -1,0 +1,17 @@
+# Created using wingetcreate 1.9.4.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.10.0.schema.json
+
+PackageIdentifier: SAP.HANAClient
+PackageVersion: 2.24.24
+PackageLocale: en-US
+Publisher: SAP SE
+PublisherUrl: https://www.sap.com/
+PrivacyUrl: https://www.sap.com/about/legal/privacy.html
+PackageName: SAP HANA Client 2.0
+PackageUrl: https://tools.hana.ondemand.com/#hanatools
+License: SAP DEVELOPER LICENSE AGREEMENT
+LicenseUrl: https://tools.hana.ondemand.com/developer-license-3_2.txt
+ShortDescription: The SAP HANA Client provides a set of drivers that developers can use to connect client applications to SAP HANA.
+ReleaseNotesUrl: https://help.sap.com/docs/SAP_HANA_CLIENT/79ae9d3916b84356a89744c65793b924/22485d2937c4427fbbedefe3cc158571.html
+ManifestType: defaultLocale
+ManifestVersion: 1.10.0

@@ -1,0 +1,21 @@
+# Created using wingetcreate 1.9.4.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+
+PackageIdentifier: SAP.HANAClient
+PackageVersion: 2.24.24
+InstallerType: zip
+NestedInstallerType: exe
+NestedInstallerFiles:
+- RelativeFilePath: hdbinst.exe
+InstallerSwitches:
+  Silent: --path `"C:\Program Files\SAP\hdbstudio`" -b
+Dependencies:
+  PackageDependencies:
+    - PackageIdentifier: Microsoft.DotNet.Framework.DeveloperPack_4
+    - PackageIdentifier: Microsoft.VCRedist.2015+.x64
+Installers:
+- Architecture: x64
+  InstallerUrl: https://tools.hana.ondemand.com/additional/hanaclient-2.24.24-windows-x64.zip
+  InstallerSha256: F0985DC1EBDA23EF2481B394C25E8852837B6355A7FDD653E37446A3712095B2
+ManifestType: installer
+ManifestVersion: 1.10.0
